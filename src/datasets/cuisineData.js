@@ -5,7 +5,7 @@
       },
       {
         strArea: "British",
-        img: "https://imgur.com/QpPOovh.png"
+        img: "https://i.imgur.com/kmB1K4l.png"
       },
       {
         strArea: "Canadian",
@@ -17,70 +17,90 @@
       },
       {
         strArea: "Dutch",
-        img: "https://i.imgur.com/wbkfWwm.png"
+        img: "https://i.imgur.com/xBubaRe.png"
       },
       {
-        strArea: "Egyptian"
+        strArea: "Egyptian",
+        img: "https://i.imgur.com/RsN7KBH.png"
       },
       {
-        strArea: "French"
+        strArea: "French",
+        img: "https://i.imgur.com/j6WO9Hw.png"
       },
       {
-        strArea: "Greek"
+        strArea: "Greek",
+        img: "https://i.imgur.com/zSaT4fH.png"
       },
       {
-        strArea: "Indian"
+        strArea: "Indian",
+        img: "https://i.imgur.com/2QADj4y.png"
       },
       {
-        strArea: "Irish"
+        strArea: "Irish",
+        img: "https://i.imgur.com/tAugPDL.png"
       },
       {
-        strArea: "Italian"
+        strArea: "Italian",
+        img: "https://i.imgur.com/QeiyNwr.png"
       },
       {
-        strArea: "Jamaican"
+        strArea: "Jamaican",
+        img: "https://i.imgur.com/CgOqPLy.png"
       },
       {
-        strArea: "Japanese"
+        strArea: "Japanese",
+        img: "https://i.imgur.com/TN6VEWQ.png"
       },
       {
-        strArea: "Kenyan"
+        strArea: "Kenyan",
+        img: "https://i.imgur.com/hBA0OMa.png"
       },
       {
-        strArea: "Malaysian"
+        strArea: "Malaysian",
+        img: "https://i.imgur.com/XFrqtjT.png"
       },
       {
-        strArea: "Mexican"
+        strArea: "Mexican",
+        img: "https://i.imgur.com/Aozj7aB.png"
       },
       {
-        strArea: "Moroccan"
+        strArea: "Moroccan",
+        img: "https://i.imgur.com/Nj670lj.png"
       },
       {
-        strArea: "Polish"
+        strArea: "Polish",
+        img: "https://i.imgur.com/3q8RHae.png"
       },
       {
-        strArea: "Portuguese"
+        strArea: "Portuguese",
+        img: "https://i.imgur.com/ofHS7B6.png"
       },
       {
-        strArea: "Russian"
+        strArea: "Russian",
+        img: "https://i.imgur.com/PCX8SN8.png"
       },
       {
-        strArea: "Spanish"
+        strArea: "Spanish",
+        img: "https://i.imgur.com/6U1xTMr.png"
       },
       {
-        strArea: "Thai"
+        strArea: "Thai",
+        img: "https://i.imgur.com/m3GZndC.png"
       },
       {
-        strArea: "Tunisian"
+        strArea: "Tunisian",
+        img: "https://i.imgur.com/SLmDtys.png"
       },
       {
-        strArea: "Turkish"
+        strArea: "Turkish",
+        img: "https://i.imgur.com/m6t0gRi.png"
       },
       {
         strArea: "Unknown"
       },
       {
-        strArea: "Vietnamese"
+        strArea: "Vietnamese",
+        img: "https://i.imgur.com/3y2dx4V.png"
       }
     ]
   

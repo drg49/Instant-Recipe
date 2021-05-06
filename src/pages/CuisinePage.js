@@ -15,6 +15,9 @@ const CuisinePage = (props) => {
                 return (
                     <CountryFoodItems
                         strMeal={item.strMeal}
+                        strMealThumb={item.strMealThumb}
+                        idMeal={item.idMeal}
+                        key={index}
                     />
                 )
             }))
@@ -24,7 +27,7 @@ const CuisinePage = (props) => {
 
         const loaded = () => {
             return (
-                <div>
+                <div id="meal-flex">
                     {cuisine}
                 </div>
             )
