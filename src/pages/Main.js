@@ -18,11 +18,8 @@ const Main = () => {
 
     //Make a different map for the other filters such as Meal Name Map and Category Map
 
-
     const [cards, setCards] = useState(cuisineMap)
     const [changeID, setChangeID] = useState(1) //This helps change the search results
-
-
 
     const handleSearchChange = (event) => {
         if (event.target.value === "cuisine") {
@@ -48,10 +45,9 @@ const Main = () => {
         if (key === 32) {
           event.preventDefault();
         }
-        let searchValue = event.target.value.trim();
-
         //Determine which search field is being used
         if (changeID === 1) {
+            let searchValue = event.target.value.trim();
             setCards(
                 cuisines.filter((item, index) =>
                 item.strArea
@@ -67,11 +63,6 @@ const Main = () => {
             )
         } 
         
-    
-    
-    
-    
-    
     }
 
 
@@ -79,7 +70,9 @@ const Main = () => {
     return ( 
         <>
         <Input handleSearchChange={handleSearchChange} handleMealChange={handleMealChange} placeholder={placeholder}/>
-        {cards}
+        <section id="cuisine-wrapper">
+            {cards}
+        </section>
         </>
     )
 }

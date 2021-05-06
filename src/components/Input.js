@@ -11,15 +11,15 @@ const Input = (props) => {
     
 
     return (
-        <>
-        <select id="search-option" onChange={props.handleSearchChange}>
-           <option value="cuisine">Cuisine</option>
-           <option value="category">Category</option>
-           <option value="meal"> Meal Name</option>
-        </select>
-        <input type="text" onChange={props.handleMealChange} placeholder={props.placeholder}/>
-        <button onClick={props.handleMealChange}>{searchIcon}</button>
-        </>
+        <section id="form">
+            <select id="search-option" onChange={props.handleSearchChange}>
+            <option value="cuisine">Cuisine</option>
+            <option value="category">Category</option>
+            <option value="meal"> Meal Name</option>
+            </select>
+            <input type="text" onChange={props.handleMealChange} placeholder={props.placeholder} id="searchbar"/>
+            <button id="search-icon">{searchIcon}</button>
+        </section>
     )
 }
 export default Input

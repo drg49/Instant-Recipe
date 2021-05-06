@@ -6,9 +6,11 @@ const CountryCards = (props) => {
 
 
     return (
+    <div id="cuisine-country">
       <Link to={`/cuisine/${props.strArea}`}>  
         <h2>{countryName}</h2>
       </Link>
+    </div>
     )
     
     

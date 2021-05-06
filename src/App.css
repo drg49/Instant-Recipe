@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-/* HEADER */
+/* HEADER////////////////////////////*/
 h1 {
   font-family: 'Kanit', sans-serif;
   background-color: brown;
@@ -16,13 +16,59 @@ h1 {
   padding-left: 9px;
   color: orangered
 }
+/*//////////////////////////////////*/
+
+/* COUNTRY CARDS///////////////////*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#cuisine-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1075px;
+  margin: auto;
+}
+
+#cuisine-country {
+  border: 1px solid blue;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 280px;
+}
+/*//////////////////////////////////*/
+/* FORM/////////////////////////////*/
+#form {
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 11px;
+  margin-bottom: 9px;
+  width: fit-content;
+  padding-bottom: 4px;
+  border-radius: 4px;
+}
+
+#search-option {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#searchbar {
+  border: none;
+  outline: none;
+}
 
 input::placeholder {
   font-size: 12px;
   font-style: italic;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+#search-icon {
+  border: none;
+  background: none;
+  color: rgb(173, 173, 173);
 }
+/*//////////////////////////////////*/
