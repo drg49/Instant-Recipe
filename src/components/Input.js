@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
@@ -13,12 +13,12 @@ const Input = (props) => {
     return (
         <>
         <select id="search-option" onChange={props.handleSearchChange}>
-           <option value="region">Region</option>
+           <option value="cuisine">Cuisine</option>
            <option value="category">Category</option>
            <option value="meal"> Meal Name</option>
         </select>
         <input type="text" onChange={props.handleMealChange} placeholder={props.placeholder}/>
-        <button>{searchIcon}</button>
+        <button onClick={props.handleMealChange}>{searchIcon}</button>
         </>
     )
 }
