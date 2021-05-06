@@ -1,19 +1,23 @@
-
     const cuisines = [
       {
-        strArea: "American"
+        strArea: "American",
+        img:"https://imgur.com/ruqgNa0.png"
       },
       {
-        strArea: "British"
+        strArea: "British",
+        img: "https://imgur.com/QpPOovh.png"
       },
       {
-        strArea: "Canadian"
+        strArea: "Canadian",
+        img: "https://i.imgur.com/i1W8l9i.png"
       },
       {
-        strArea: "Chinese"
+        strArea: "Chinese",
+        img: "https://i.imgur.com/DE4IHUH.png"
       },
       {
-        strArea: "Dutch"
+        strArea: "Dutch",
+        img: "https://i.imgur.com/wbkfWwm.png"
       },
       {
         strArea: "Egyptian"

@@ -11,6 +11,7 @@ const Main = () => {
         return (
             <CountryCards
                 strArea={item.strArea}
+                img={item.img}
                 key={index}
             />
         )

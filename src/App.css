@@ -36,9 +36,17 @@ a {
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 280px;
+  width: 160px;
+  height: 84px;
+  background-size: cover;
+}
+
+#countryName {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 /*//////////////////////////////////*/
+
 /* FORM/////////////////////////////*/
 #form {
   border: 1px solid black;

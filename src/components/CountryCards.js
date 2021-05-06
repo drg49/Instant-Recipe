@@ -6,9 +6,9 @@ const CountryCards = (props) => {
 
 
     return (
-    <div id="cuisine-country">
+    <div id="cuisine-country"style={{backgroundImage: `url(${props.img})`}}>
       <Link to={`/cuisine/${props.strArea}`}>  
-        <h2>{countryName}</h2>
+        <h2 id="countryName">{countryName}</h2>
       </Link>
     </div>
     )
