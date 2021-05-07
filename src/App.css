@@ -98,6 +98,7 @@ a {
   border: none;
   outline: none;
   cursor: pointer;
+  background: none;
 }
 
 #searchbar {
@@ -168,4 +169,22 @@ li:first-of-type {
 
 li:last-child {
   margin-bottom: 3px;
+}
+
+#instructions {
+  max-width: 810px;
+  margin: auto;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+#video-btn {
+  display: block;
+  width: 230px;
+  color: white;
+  background-color: rgb(27, 116, 146);
+  border-radius: 6px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 15px;
 }

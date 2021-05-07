@@ -43,7 +43,8 @@ const RecipePage = (props) => {
                     <li>{recipe.strIngredient19}</li>
                     <li>{recipe.strIngredient20}</li>
                 </ul>
-            
+                <p id="instructions">{recipe.strInstructions}</p>
+                <a id="video-btn" href={recipe.strYoutube}>Watch Instructional Video</a>          
             </div>
         )
     }
