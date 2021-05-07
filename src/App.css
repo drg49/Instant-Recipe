@@ -98,7 +98,6 @@ a {
   border: none;
   outline: none;
   cursor: pointer;
-  background: none;
 }
 
 #searchbar {
@@ -117,15 +116,6 @@ input::placeholder {
   color: rgb(173, 173, 173);
 }
 /*//////////////////////////////////*/
-
-@media screen and (max-width: 350px) {
-  #meal-card {
-    border-left: none;
-    border-right: none;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
 
 /* RECIPES/////////////////////////*/
 h2 {
@@ -187,4 +177,25 @@ li:last-child {
   padding: 10px;
   margin: auto;
   margin-bottom: 15px;
+}
+
+/* //////////////////////////////////////// */
+
+@media screen and (max-width: 992px) {
+  #search-option {
+    border: none;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  #meal-card {
+    border-left: none;
+    border-right: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
