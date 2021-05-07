@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 const CountryFoodItems = (props) => {
     return (
-        <Link to="">
+        <Link to={`/recipe/${props.idMeal}`}>
         <div id="meal-card">
             <img src={props.strMealThumb} id="meal-thumb" alt={props.strMeal}/>
             <h4 id="meal-name">{props.strMeal}</h4>

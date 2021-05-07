@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import Main from './pages/Main'
 import CuisinePage from './pages/CuisinePage'
+import RecipePage from './pages/RecipePage'
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
           <Main />
         </Route>
         <Route path='/cuisine/:country'
-        render={(routerProps)=> <CuisinePage {...routerProps}/>} //routerProps is a parameter, you can name it whatever you want!
+        render={(routerProps)=> <CuisinePage {...routerProps}/>}
         />
-        
-
+        <Route path='/recipe/:mealId'
+        render={(routerProps)=> <RecipePage {...routerProps}/>} 
+        />
         </Switch>
       
     </div>
