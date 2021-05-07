@@ -98,6 +98,7 @@ a {
   border: none;
   outline: none;
   cursor: pointer;
+  background: none;
 }
 
 #searchbar {
@@ -179,16 +180,6 @@ li:last-child {
   margin-bottom: 15px;
 }
 
-/* //////////////////////////////////////// */
-
-@media screen and (max-width: 992px) {
-  #search-option {
-    border: none;
-    background-color: white;
-    outline: none;
-    cursor: pointer;
-  }
-}
 
 
 @media screen and (max-width: 350px) {
