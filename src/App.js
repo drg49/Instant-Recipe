@@ -15,7 +15,9 @@ function App() {
         </Route>
         <Route path='/cuisine/:country'
         render={(routerProps)=> <CuisinePage {...routerProps}/>} //routerProps is a parameter, you can name it whatever you want!
-      />
+        />
+        
+
         </Switch>
       
     </div>

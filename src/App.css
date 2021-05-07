@@ -116,6 +116,12 @@ input::placeholder {
 }
 /*//////////////////////////////////*/
 
+@media screen and (max-width: 768px) {
+  #meal-thumb {
+    height: 153px;
+  }
+}
+
 
 @media screen and (max-width: 350px) {
   #meal-card {
