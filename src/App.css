@@ -71,6 +71,7 @@ a {
 
 #meal-thumb {
   width: 153px;
+  height: 153px;
   border-right: 1px solid brown;
 }
 
@@ -115,13 +116,6 @@ input::placeholder {
   color: rgb(173, 173, 173);
 }
 /*//////////////////////////////////*/
-
-@media screen and (max-width: 768px) {
-  #meal-thumb {
-    height: 153px;
-  }
-}
-
 
 @media screen and (max-width: 350px) {
   #meal-card {
