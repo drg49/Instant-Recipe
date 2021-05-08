@@ -4,12 +4,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 
 const searchIcon = <FontAwesomeIcon icon={faSearch} size="sm"/>
 
-
 const Input = (props) => {
-
-    
-    
-
     return (
         <section id="form">
             <select id="search-option" onChange={props.handleSearchChange}>
@@ -22,4 +17,5 @@ const Input = (props) => {
         </section>
     )
 }
+
 export default Input

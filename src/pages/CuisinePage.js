@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import CountryFoodItems from '../components/CountryFoodItems'
+import FoodItems from '../components/FoodItems'
 
 const CuisinePage = (props) => {
     const country = props.match.params.country
@@ -8,12 +8,12 @@ const CuisinePage = (props) => {
     
     const [cuisine, setCuisine] = useState(null)
     
-        const getCuisine = async () => {
+        const getMeals = async () => {
             const response = await fetch(url)
             const data = await response.json()
             setCuisine(data.meals.map((item, index) => {
                 return (
-                    <CountryFoodItems
+                    <FoodItems
                         strMeal={item.strMeal}
                         strMealThumb={item.strMealThumb}
                         idMeal={item.idMeal}
@@ -23,7 +23,7 @@ const CuisinePage = (props) => {
             }))
         }
 
-        useEffect(() => {getCuisine()}, [])
+        useEffect(() => {getMeals()}, [])
 
         const loaded = () => {
             return (

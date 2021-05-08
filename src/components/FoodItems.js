@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-const CountryFoodItems = (props) => {
+const FoodItems = (props) => {
     return (
         <Link to={`/recipe/${props.idMeal}`}>
         <div id="meal-card">
@@ -12,4 +12,4 @@ const CountryFoodItems = (props) => {
     ) 
 }
 
-export default CountryFoodItems
+export default FoodItems

@@ -45,7 +45,7 @@ const categories = [
     },
     {
       "strCategory": "Starter",
-      img: "https://i.imgur.com/GqM7UpE.jpg"
+      img: "https://i.imgur.com/jRUpCy8.jpg"
     },
     {
       "strCategory": "Vegan",
