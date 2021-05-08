@@ -21,7 +21,7 @@ const RecipePage = (props) => {
                 <h2>{recipe.strMeal}</h2>
                 <img id="recipethumb" src={recipe.strMealThumb} alt={recipe.strMeal} />
                 <p id="origin">Cuisine: {recipe.strArea}</p>
-                <h4>Ingredients</h4>
+                <h4 id="ingredients">Ingredients</h4>
                 <ul>
                     <li>{recipe.strIngredient1}</li>
                     <li>{recipe.strIngredient2}</li>
@@ -44,7 +44,7 @@ const RecipePage = (props) => {
                     <li>{recipe.strIngredient20}</li>
                 </ul>
                 <p id="instructions">{recipe.strInstructions}</p>
-                <a id="video-btn" href={recipe.strYoutube}>Watch Instructional Video</a>          
+                <a id="video-btn" href={recipe.strYoutube} target="_blank" rel="noreferrer">Watch Instructional Video</a>          
             </div>
         )
     }

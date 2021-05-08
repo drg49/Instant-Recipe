@@ -2,10 +2,22 @@ import React, {useState, useEffect} from 'react'
 import Input from '../components/Input'
 import CountryCards from '../components/CountryCards'
 import cuisines from '../datasets/cuisineData'
+import CategoryCards from '../components/CategoryCards'
+import categories from '../datasets/categoryData'
 
 const Main = () => {
 
-    const [placeholder, setPlaceholder] = useState("ex. Chinese, Mexican, Italian")
+    const [placeholder, setPlaceholder] = useState("ex. Vegan, Seafood, Dessert")
+
+    const categoryMap = categories.map((item, index) => {
+        return (
+            <CategoryCards
+                strCategory={item.strCategory}
+                img={item.img}
+                key={index}
+            />
+        )
+    })
 
     const cuisineMap = cuisines.map((item, index) => {
         return (
@@ -15,22 +27,20 @@ const Main = () => {
                 key={index}
             />
         )
-    }) //Name of all the available cuisines mapped out
+    })
 
-    //Make a different map for the other filters such as Meal Name Map and Category Map
-
-    const [cards, setCards] = useState(cuisineMap)
+    const [cards, setCards] = useState(categoryMap)
     const [changeID, setChangeID] = useState(1) //This helps change the search results
 
     const handleSearchChange = (event) => {
-        if (event.target.value === "cuisine") {
-            setPlaceholder("ex. Chinese, Mexican, Italian")
-            setCards(cuisineMap)
+        if (event.target.value === "category") {
+            setPlaceholder("ex. Vegan, Seafood, Dessert")
+            setCards(categoryMap)
             setChangeID(1)
         } 
-        if (event.target.value === 'category') {
-            setPlaceholder("ex. Vegan, Seafood, Dessert")
-            // setCards(".......")
+        if (event.target.value === 'cuisine') {
+            setPlaceholder("ex. Chinese, Mexican, Italian")
+            setCards(cuisineMap)
             setChangeID(2)
         } 
         if (event.target.value === "meal") {
@@ -47,7 +57,10 @@ const Main = () => {
           event.preventDefault();
         }
         //Determine which search field is being used
-        if (changeID === 1) {
+
+
+
+        if (changeID === 2) {
             let searchValue = event.target.value.trim();
             setCards(
                 cuisines.filter((item, index) =>

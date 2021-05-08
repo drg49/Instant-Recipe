@@ -13,8 +13,8 @@ const Input = (props) => {
     return (
         <section id="form">
             <select id="search-option" onChange={props.handleSearchChange}>
-            <option value="cuisine">Cuisine</option>
             <option value="category">Category</option>
+            <option value="cuisine">Cuisine</option>
             <option value="meal"> Meal Name</option>
             </select>
             <input type="text" onChange={props.handleMealChange} placeholder={props.placeholder} id="searchbar"/>
