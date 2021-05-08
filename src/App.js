@@ -4,7 +4,8 @@ import Header from './components/Header'
 import Main from './pages/Main'
 import CuisinePage from './pages/CuisinePage'
 import RecipePage from './pages/RecipePage'
-import CategoryMealpage from './pages/CategoryMealPage';
+import CategoryMealPage from './pages/CategoryMealPage';
+import IngredientFilterPage from './pages/IngredientFilterPage';
 
 function App() {
   return (
@@ -19,7 +20,10 @@ function App() {
         render={(routerProps)=> <CuisinePage {...routerProps}/>}
         />
         <Route path='/category/:category'
-        render={(routerProps)=> <CategoryMealpage {...routerProps}/>}
+        render={(routerProps)=> <CategoryMealPage {...routerProps}/>}
+        />
+        <Route path='/ingredient/:ingredient'
+        render={(routerProps)=> <IngredientFilterPage {...routerProps}/>}
         />
         <Route path='/recipe/:mealId'
         render={(routerProps)=> <RecipePage {...routerProps}/>} 

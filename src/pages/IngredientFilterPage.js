@@ -1,13 +1,13 @@
-import React,{useState, useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import FoodItems from '../components/FoodItems'
 
-const CategoryMealPage = (props) => {
-    const category = props.match.params.category
+const IngredientFilterPage = (props) => {
+    const ingredient = props.match.params.ingredient
 
-    const url = `https://www.themealdb.com/api/json/v1/1/filter.php?c=${category}`
+    const url = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`
 
     const [meals, setMeals] = useState(null)
-    
+
     const getMeals = async () => {
         const response = await fetch(url)
         const data = await response.json()
@@ -41,4 +41,4 @@ const CategoryMealPage = (props) => {
 
 }
 
-export default CategoryMealPage
+export default IngredientFilterPage

@@ -203,7 +203,18 @@ li:last-child {
   margin: 11px;
 }
 
+/* LONG INGREDIENT LIST//////////// */
+#ing-list {
+  border: none;
+}
+#ing-list-item {
+  line-height: 30px;
+  border-bottom: 1px solid black;
+}
 
+#ing-list-item:hover {
+  background-color: lightblue;
+}
 
 
 @media screen and (max-width: 350px) {

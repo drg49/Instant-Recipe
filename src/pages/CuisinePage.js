@@ -6,12 +6,12 @@ const CuisinePage = (props) => {
     
     const url = `https://www.themealdb.com/api/json/v1/1/filter.php?a=${country}`
     
-    const [cuisine, setCuisine] = useState(null)
+    const [meals, setMeals] = useState(null)
     
         const getMeals = async () => {
             const response = await fetch(url)
             const data = await response.json()
-            setCuisine(data.meals.map((item, index) => {
+            setMeals(data.meals.map((item, index) => {
                 return (
                     <FoodItems
                         strMeal={item.strMeal}
@@ -28,7 +28,7 @@ const CuisinePage = (props) => {
         const loaded = () => {
             return (
                 <div id="meal-flex">
-                    {cuisine}
+                    {meals}
                 </div>
             )
         }
@@ -37,7 +37,7 @@ const CuisinePage = (props) => {
             return <h2>Loading...</h2>
         }
     
-        return cuisine ? loaded() : loading()
+        return meals ? loaded() : loading()
 }
 
 export default CuisinePage
