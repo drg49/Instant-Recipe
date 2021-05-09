@@ -24,14 +24,6 @@ h1 {
   user-select: none;
 }
 
-h1:hover #brand {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-h1:hover #icon {
-  color: rgba(255, 68, 0, 0.7);
-}
-
 #icon {
   padding-left: 9px;
   color: orangered
@@ -71,13 +63,6 @@ a {
   user-select: none;
 }
 
-#cuisine-country:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 5px 2px brown;
-  -moz-box-shadow: 0 0 5px 2px brown;
-  box-shadow: 0 0 5px 2px brown;
-}
-
 #countryName {
   color: rgb(246, 246, 246);
   letter-spacing: 1px;
@@ -105,13 +90,6 @@ a {
   -moz-user-select: none; 
   -ms-user-select: none; 
   user-select: none;
-}
-
-#meal-card:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 5px 2px brown;
-  -moz-box-shadow: 0 0 5px 2px brown;
-  box-shadow: 0 0 5px 2px brown;
 }
 
 #meal-thumb {
@@ -238,11 +216,6 @@ li:last-child {
   user-select: none;
 }
 
-#video-btn:hover {
-  -webkit-box-shadow: 0 0 5px 2px rgb(27, 116, 146);
-  -moz-box-shadow: 0 0 5px 2px rgb(27, 116, 146);
-  box-shadow: 0 0 5px 2px rgb(27, 116, 146);
-}
 /* //////////////////////////////////////// */
 
 /* CATEGORY CARDS*/
@@ -257,13 +230,6 @@ li:last-child {
   -moz-user-select: none; 
   -ms-user-select: none; 
   user-select: none;
-}
-
-#category-card:hover {
-  cursor: pointer;
-  -webkit-box-shadow: 0 0 5px 2px brown;
-  -moz-box-shadow: 0 0 5px 2px brown;
-  box-shadow: 0 0 5px 2px brown;
 }
 
 #category-img {
@@ -295,14 +261,53 @@ li:last-child {
   transition: 200ms;
 }
 
-#ing-list-item:hover {
-  background-color: lightblue;
-}
 /* //////////////////////////////// */
 
 #page-title {
   margin-bottom: 11px;
 }
+
+@media screen and (min-width: 769px) {
+  #category-card:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px 2px brown;
+    -moz-box-shadow: 0 0 5px 2px brown;
+    box-shadow: 0 0 5px 2px brown;
+  }
+
+  #video-btn:hover {
+    -webkit-box-shadow: 0 0 5px 2px rgb(27, 116, 146);
+    -moz-box-shadow: 0 0 5px 2px rgb(27, 116, 146);
+    box-shadow: 0 0 5px 2px rgb(27, 116, 146);
+  }
+
+  #meal-card:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px 2px brown;
+    -moz-box-shadow: 0 0 5px 2px brown;
+    box-shadow: 0 0 5px 2px brown;
+  }
+
+  #cuisine-country:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px 2px brown;
+    -moz-box-shadow: 0 0 5px 2px brown;
+    box-shadow: 0 0 5px 2px brown;
+  }
+
+  h1:hover #brand {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  h1:hover #icon {
+    color: rgba(255, 68, 0, 0.7);
+  }
+
+  #ing-list-item:hover {
+    background-color: lightblue;
+  }
+}
+
 
 @media screen and (max-width: 350px) {
   #meal-card {
