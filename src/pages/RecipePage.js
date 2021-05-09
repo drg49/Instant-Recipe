@@ -1,4 +1,9 @@
 import React, {useState, useEffect} from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
+import {Link} from 'react-router-dom'
+
+const backBtn = <FontAwesomeIcon icon={faArrowLeft} size="1x"/>
 
 const RecipePage = (props) => {
     const mealId = props.match.params.mealId
@@ -18,6 +23,7 @@ const RecipePage = (props) => {
     const loaded = () => {
         return (
             <div>
+                <Link to='/'><span id="home">{backBtn}</span></Link>
                 <h2>{recipe.strMeal}</h2>
                 <img id="recipethumb" src={recipe.strMealThumb} alt={recipe.strMeal} />
                 <p id="origin">Cuisine: {recipe.strArea}</p>

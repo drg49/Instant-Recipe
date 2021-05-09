@@ -264,7 +264,19 @@ li:last-child {
 /* //////////////////////////////// */
 
 #page-title {
+  margin-top: 6px;
   margin-bottom: 11px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+#home {
+  display: block;
+  margin-top: 5px;
 }
 
 @media screen and (min-width: 769px) {
@@ -295,19 +307,24 @@ li:last-child {
     box-shadow: 0 0 5px 2px brown;
   }
 
-  h1:hover #brand {
-    color: rgba(0, 0, 0, 0.7);
-  }
-  
-  h1:hover #icon {
-    color: rgba(255, 68, 0, 0.7);
-  }
-
   #ing-list-item:hover {
     background-color: lightblue;
   }
+
+  #home:hover {
+    color: rgba(0, 0, 0, 0.705)
+  }
+
+  #page-title:hover {
+    cursor: default;
+  }
 }
 
+@media screen and (max-width: 600px) {
+  #icon {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 350px) {
   #meal-card {

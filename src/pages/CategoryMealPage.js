@@ -1,5 +1,10 @@
 import React,{useState, useEffect} from 'react'
 import FoodItems from '../components/FoodItems'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft} from '@fortawesome/free-solid-svg-icons'
+import {Link} from 'react-router-dom'
+
+const backBtn = <FontAwesomeIcon icon={faArrowLeft} size="1x"/>
 
 const CategoryMealPage = (props) => {
     const category = props.match.params.category
@@ -28,6 +33,7 @@ const CategoryMealPage = (props) => {
     const loaded = () => {
         return (
             <>
+            <Link to='/'><span id="home">{backBtn}</span></Link>
             <h2 id="page-title">{category} Recipes</h2>
             <div id="meal-flex">
                 {meals}
