@@ -240,12 +240,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "51",
-        "strIngredient": "Cashews",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "52",
         "strIngredient": "Caster Sugar",
         "strDescription": null,
@@ -2316,12 +2310,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "438",
-        "strIngredient": "Tortillas",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "439",
         "strIngredient": "Udon Noodles",
         "strDescription": null,
@@ -2862,12 +2850,6 @@ const ingredients = [
         "strType": "Cereal"
       },
       {
-        "idIngredient": "545",
-        "strIngredient": "Ancho Chillies",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "546",
         "strIngredient": "Almond Milk",
         "strDescription": null,
@@ -3078,5 +3060,20 @@ const ingredients = [
         "strType": "Bread"
       }
     ]
+
+    // Sort alphabetically
+    ingredients.sort(function(a, b) {
+      var ingA = a.strIngredient.toLowerCase(); // ignore upper and lowercase
+      var ingB = b.strIngredient.toLowerCase(); // ignore upper and lowercase
+      if (ingA < ingB) {
+        return -1;
+      }
+      if (ingA > ingB) {
+        return 1;
+      }
+      
+      // names must be equal
+      return 0;
+      });
 
 export default ingredients

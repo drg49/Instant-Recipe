@@ -124,7 +124,7 @@ const Main = () => {
 
     let resultNumber;
     if (changeID === 3) {
-        resultNumber = <p>Displaying {cards.length} out of 513 results.</p>
+        resultNumber = <p>Displaying {cards.length} out of 510 results.</p>
     } else {
         resultNumber = null
     }
