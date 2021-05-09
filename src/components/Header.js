@@ -9,7 +9,7 @@ const Header = () => {
     return (
     <div id="header">
         
-        <h1><Link to='/'><span id="brand">Instant Recipe</span> <span id="icon">{burgerIcon}</span></Link></h1>
+        <h1><Link to='/'>Instant Recipe <span id="icon">{burgerIcon}</span></Link></h1>
         
     </div>
     )
