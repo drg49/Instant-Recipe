@@ -7,9 +7,11 @@ const burgerIcon = <FontAwesomeIcon icon={faHamburger} size="1x"/>
 
 const Header = () => {
     return (
-    <Link to='/'>
-    <h1>Instant Recipe <span id="icon">{burgerIcon}</span></h1>
-    </Link>
+    <div id="header">
+        
+        <h1><Link to='/'><span id="brand">Instant Recipe</span> <span id="icon">{burgerIcon}</span></Link></h1>
+        
+    </div>
     )
 }
 

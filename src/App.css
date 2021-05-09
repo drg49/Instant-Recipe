@@ -6,17 +6,37 @@
 }
 
 /* HEADER////////////////////////////*/
+#header {
+  background-color: brown;
+}
+
 h1 {
   font-family: 'Kanit', sans-serif;
   background-color: brown;
-  margin: 0;
+  margin: 0 auto;
   padding: 7px;
+  width: 256px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+h1:hover #brand {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+h1:hover #icon {
+  color: rgba(255, 68, 0, 0.7);
 }
 
 #icon {
   padding-left: 9px;
   color: orangered
 }
+
 /*//////////////////////////////////*/
 
 /* COUNTRY CARDS///////////////////*/
@@ -42,10 +62,20 @@ a {
   width: 160px;
   height: 84px;
   background-size: cover;
+  transition: 200ms;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 #cuisine-country:hover {
   cursor: pointer;
+  -webkit-box-shadow: 0 0 5px 2px brown;
+  -moz-box-shadow: 0 0 5px 2px brown;
+  box-shadow: 0 0 5px 2px brown;
 }
 
 #countryName {
@@ -68,6 +98,20 @@ a {
   border: 1px solid brown;
   border-radius: 3px;
   margin: 10px;
+  transition: 200ms;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+#meal-card:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px 2px brown;
+  -moz-box-shadow: 0 0 5px 2px brown;
+  box-shadow: 0 0 5px 2px brown;
 }
 
 #meal-thumb {
@@ -93,6 +137,12 @@ a {
   width: fit-content;
   padding-bottom: 4px;
   border-radius: 4px;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 #search-option {
@@ -179,6 +229,19 @@ li:last-child {
   padding: 10px;
   margin: auto;
   margin-bottom: 18px;
+  transition: 150ms;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+#video-btn:hover {
+  -webkit-box-shadow: 0 0 5px 2px rgb(27, 116, 146);
+  -moz-box-shadow: 0 0 5px 2px rgb(27, 116, 146);
+  box-shadow: 0 0 5px 2px rgb(27, 116, 146);
 }
 /* //////////////////////////////////////// */
 
@@ -187,7 +250,20 @@ li:last-child {
   border: 1px solid brown;
   border-radius: 3px;
   margin: 10px;
+  transition: 200ms;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+}
+
+#category-card:hover {
   cursor: pointer;
+  -webkit-box-shadow: 0 0 5px 2px brown;
+  -moz-box-shadow: 0 0 5px 2px brown;
+  box-shadow: 0 0 5px 2px brown;
 }
 
 #category-img {
@@ -206,6 +282,12 @@ li:last-child {
 /* LONG INGREDIENT LIST//////////// */
 #ing-list {
   border: none;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
 }
 #ing-list-item {
   line-height: 30px;
