@@ -210,12 +210,17 @@ li:last-child {
 #ing-list-item {
   line-height: 30px;
   border-bottom: 1px solid black;
+  transition: 200ms;
 }
 
 #ing-list-item:hover {
   background-color: lightblue;
 }
+/* //////////////////////////////// */
 
+#page-title {
+  margin-bottom: 11px;
+}
 
 @media screen and (max-width: 350px) {
   #meal-card {

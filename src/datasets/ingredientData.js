@@ -132,12 +132,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "28",
-        "strIngredient": "Biryani Masala",
-        "strDescription": "Biryani, also known as biriyani, biriani, birani or briyani, is a mixed rice dish with its origins among the Muslims of the Indian subcontinent. It can be compared to mixing a curry, later combining it with semi-cooked rice separately. This dish is especially popular throughout the Indian subcontinent, as well as among the diaspora from the region. It is also prepared in other regions such as Iraqi Kurdistan. It is made with Indian spices, rice, meat (chicken, goat, beef, lamb, prawn, or fish), vegetables or eggs.",
-        "strType": null
-      },
-      {
         "idIngredient": "29",
         "strIngredient": "Black Pepper",
         "strDescription": "Black pepper (Piper nigrum) is a flowering vine in the family Piperaceae, cultivated for its fruit, known as a peppercorn, which is usually dried and used as a spice and seasoning. When fresh and fully mature, it is about 5 mm (0.20 in) in diameter and dark red, and contains a single seed, like all drupes. Peppercorns and the ground pepper derived from them may be described simply as pepper, or more precisely as black pepper (cooked and dried unripe fruit), green pepper (dried unripe fruit), or white pepper (ripe fruit seeds).\r\n\r\nBlack pepper is native to present-day Kerala in Southwestern India, and is extensively cultivated there and elsewhere in tropical regions. Vietnam is the world's largest producer and exporter of pepper, producing 34% of the world's crop, as of 2013.",
@@ -147,18 +141,6 @@ const ingredients = [
         "idIngredient": "30",
         "strIngredient": "Black Treacle",
         "strDescription": "Molasses (American English) or black treacle (British English) is a viscous product resulting from refining sugarcane or sugar beets into sugar. Molasses varies by amount of sugar, method of extraction, and age of plant. Sugarcane molasses is primarily used for sweetening and flavoring foods in the United States, Canada, and elsewhere. Molasses is a defining component of fine commercial brown sugar.\r\n\r\nSweet sorghum syrup may be colloquially called \"sorghum molasses\" in the southern United States.[2][3] Similar products include honey, maple syrup, corn syrup, and invert syrup. Most of these alternative syrups have milder flavors.",
-        "strType": null
-      },
-      {
-        "idIngredient": "31",
-        "strIngredient": "Borlotti Beans",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "32",
-        "strIngredient": "Bowtie Pasta",
-        "strDescription": null,
         "strType": null
       },
       {
@@ -534,12 +516,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "100",
-        "strIngredient": "Cream",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "101",
         "strIngredient": "Creme Fraiche",
         "strDescription": null,
@@ -596,12 +572,6 @@ const ingredients = [
       {
         "idIngredient": "110",
         "strIngredient": "Demerara Sugar",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "111",
-        "strIngredient": "Diced Tomatoes",
         "strDescription": null,
         "strType": null
       },
@@ -714,12 +684,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "132",
-        "strIngredient": "Fenugreek",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "133",
         "strIngredient": "Feta",
         "strDescription": null,
@@ -800,12 +764,6 @@ const ingredients = [
       {
         "idIngredient": "146",
         "strIngredient": "Fries",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "147",
-        "strIngredient": "Full Fat Yogurt",
         "strDescription": null,
         "strType": null
       },
@@ -920,12 +878,6 @@ const ingredients = [
       {
         "idIngredient": "167",
         "strIngredient": "Green Red Lentils",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "168",
-        "strIngredient": "Green Salsa",
         "strDescription": null,
         "strType": null
       },
@@ -1512,12 +1464,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "272",
-        "strIngredient": "Rigatoni",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "273",
         "strIngredient": "Rocket",
         "strDescription": null,
@@ -1700,12 +1646,6 @@ const ingredients = [
       {
         "idIngredient": "307",
         "strIngredient": "Sunflower Oil",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "308",
-        "strIngredient": "Tamarind Ball",
         "strDescription": null,
         "strType": null
       },
@@ -1896,12 +1836,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "341",
-        "strIngredient": "Wholegrain Bread",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "342",
         "strIngredient": "Worcestershire Sauce",
         "strDescription": null,
@@ -1956,12 +1890,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "351",
-        "strIngredient": "Tagliatelle",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "352",
         "strIngredient": "Fettuccine",
         "strDescription": "",
@@ -1998,20 +1926,8 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "358",
-        "strIngredient": "Vermicelli Pasta",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "359",
         "strIngredient": "Baby Squid",
-        "strDescription": "",
-        "strType": null
-      },
-      {
-        "idIngredient": "360",
-        "strIngredient": "Squid",
         "strDescription": "",
         "strType": null
       },
@@ -2064,18 +1980,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "369",
-        "strIngredient": "Pappardelle Pasta",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "370",
-        "strIngredient": "Paccheri Pasta",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "371",
         "strIngredient": "Linguine Pasta",
         "strDescription": null,
@@ -2084,12 +1988,6 @@ const ingredients = [
       {
         "idIngredient": "373",
         "strIngredient": "Sugar Snap Peas",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "374",
-        "strIngredient": "Crusty Bread",
         "strDescription": null,
         "strType": null
       },
@@ -2202,12 +2100,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "395",
-        "strIngredient": "Haricot Beans",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "396",
         "strIngredient": "Rosemary",
         "strDescription": null,
@@ -2310,12 +2202,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "415",
-        "strIngredient": "Dark Chocolate Chips",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "416",
         "strIngredient": "Milk Chocolate",
         "strDescription": null,
@@ -2382,12 +2268,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "427",
-        "strIngredient": "Tinned Tomatos",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "428",
         "strIngredient": "Chestnuts",
         "strDescription": null,
@@ -2400,20 +2280,8 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "430",
-        "strIngredient": "Truffle Oil",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "431",
         "strIngredient": "Paneer",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "432",
-        "strIngredient": "Naan Bread",
         "strDescription": null,
         "strType": null
       },
@@ -2538,12 +2406,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "453",
-        "strIngredient": "Beef Kidney",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "454",
         "strIngredient": "Haddock",
         "strDescription": null,
@@ -2606,30 +2468,6 @@ const ingredients = [
       {
         "idIngredient": "464",
         "strIngredient": "Braeburn Apples",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "465",
-        "strIngredient": "Red Food Colouring",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "466",
-        "strIngredient": "Pink Food Colouring",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "467",
-        "strIngredient": "Blue Food Colouring",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "468",
-        "strIngredient": "Yellow Food Colouring",
         "strDescription": null,
         "strType": null
       },
@@ -2778,12 +2616,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "493",
-        "strIngredient": "Tarragon Leaves",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "494",
         "strIngredient": "Chives",
         "strDescription": null,
@@ -2792,12 +2624,6 @@ const ingredients = [
       {
         "idIngredient": "495",
         "strIngredient": "Pears",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "496",
-        "strIngredient": "White Chocolate",
         "strDescription": null,
         "strType": null
       },
@@ -2856,12 +2682,6 @@ const ingredients = [
         "strType": null
       },
       {
-        "idIngredient": "506",
-        "strIngredient": "Tabasco Sauce",
-        "strDescription": null,
-        "strType": null
-      },
-      {
         "idIngredient": "507",
         "strIngredient": "Canola Oil",
         "strDescription": null,
@@ -2882,12 +2702,6 @@ const ingredients = [
       {
         "idIngredient": "510",
         "strIngredient": "Ackee",
-        "strDescription": null,
-        "strType": null
-      },
-      {
-        "idIngredient": "511",
-        "strIngredient": "Jerk",
         "strDescription": null,
         "strType": null
       },
@@ -2932,12 +2746,6 @@ const ingredients = [
         "strIngredient": "Red Snapper",
         "strDescription": "The northern red snapper (Lutjanus campechanus) is a species of snapper native to the western Atlantic Ocean including the Gulf of Mexico, where it inhabits environments associated with reefs. This species is commercially important and is also sought-after as a game fish.\r\n\r\nThe northern red snapper's body is very similar in shape to other snappers, such as the mangrove snapper, mutton snapper, lane snapper, and dog snapper. All feature a sloped profile, medium-to-large scales, a spiny dorsal fin, and a laterally compressed body. Northern red snapper have short, sharp, needle-like teeth, but they lack the prominent upper canine teeth found on the mutton, dog, and mangrove snappers. This snapper reaches maturity at a length of about 39 cm (15 in). The common adult length is 60 cm (24 in), but may reach 100 cm (39 in). The maximum published weight is 38 kg (84 lb), and the oldest reported age is 100+ years. Coloration of the northern red snapper is light red, with more intense pigment on the back. It has 10 dorsal spines, 14 soft dorsal rays, three anal spines and eight to 9 anal soft rays. Juvenile fish (shorter than 30–35 cm) can also have a dark spot on their sides, below the anterior soft dorsal rays, which fades with age.",
         "strType": "Fish"
-      },
-      {
-        "idIngredient": "519",
-        "strIngredient": "Malt Vinegar",
-        "strDescription": "Vinegar is a liquid consisting of about 5–20% acetic acid (CH3COOH), water, and other trace chemicals, which may include flavorings. The acetic acid is produced by the fermentation of ethanol by acetic acid bacteria. Vinegar is now mainly used as a cooking ingredient, or in pickling. As the most easily manufactured mild acid, it has historically had a great variety of industrial, medical, and domestic uses, some of which (such as its use as a general household cleaner) are still commonly practiced today.\r\n\r\nCommercial vinegar is produced either by a fast or a slow fermentation process. In general, slow methods are used in traditional vinegars where fermentation proceeds slowly over the course of a few months or up to a year. The longer fermentation period allows for the accumulation of a non-toxic slime composed of acetic acid bacteria. Fast methods add mother of vinegar (bacterial culture) to the source liquid before adding air to oxygenate and promote the fastest fermentation. In fast production processes, vinegar may be produced between 20 hours to three days.",
-        "strType": "Seasoning"
       },
       {
         "idIngredient": "520",
@@ -2994,27 +2802,9 @@ const ingredients = [
         "strType": "Side"
       },
       {
-        "idIngredient": "529",
-        "strIngredient": "Rice wine",
-        "strDescription": "Rice wine is an alcoholic beverage fermented and distilled from rice, traditionally consumed in East Asia, Southeast Asia and South Asia. Rice wine is made from the fermentation of rice starch that has been converted to sugars. Microbes are the source of the enzymes that convert the starches to sugar.[1]\r\n\r\nRice wine typically has an alcohol content of 18–25% ABV. Rice wines are used in Asian gastronomy at formal dinners and banquets and in cooking. They are also used in a religious and ceremonial context.",
-        "strType": "Wine"
-      },
-      {
-        "idIngredient": "530",
-        "strIngredient": "Cooking wine",
-        "strDescription": "Splash into casseroles, sauces and marinades for a rounded vibrant flavour.",
-        "strType": "Wine"
-      },
-      {
         "idIngredient": "531",
         "strIngredient": "Duck Sauce",
         "strDescription": "Duck sauce (or orange sauce) is a condiment with a sweet and sour flavor and a translucent orange appearance similar to a thin jelly. Offered at Chinese-American restaurants, it is used as a dip for deep-fried dishes such as wonton strips, spring rolls, egg rolls, duck, chicken, fish, or with rice or noodles. It is often provided in single-serving packets along with soy sauce, mustard, hot sauce or red chili powder. It may be used as a glaze on foods, such as poultry. Despite its name the sauce is not prepared using duck meat.",
-        "strType": "Sauce"
-      },
-      {
-        "idIngredient": "532",
-        "strIngredient": "Gochujang",
-        "strDescription": "Gochujang or red chili paste is a savory, sweet, and spicy fermented condiment made from chili powder, glutinous rice, meju powder, yeotgireum, and salt.",
         "strType": "Sauce"
       },
       {
@@ -3042,27 +2832,9 @@ const ingredients = [
         "strType": "Spirit"
       },
       {
-        "idIngredient": "537",
-        "strIngredient": "Light Rum",
-        "strDescription": "Rum is a distilled alcoholic drink made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels.\r\n\r\nThe majority of the world's rum production occurs in the Caribbean and Latin America. Rum is also produced in Australia, Portugal, Austria, Canada, Fiji, India, Japan, Mauritius, Nepal, New Zealand, the Philippines, Reunion Island, South Africa, Spain, Sweden, Taiwan, Thailand, the United Kingdom and the United States.\r\n\r\nRums are produced in various grades. Light rums are commonly used in cocktails, whereas \"golden\" and \"dark\" rums were typically consumed straight or neat, on the rocks, or used for cooking, but are now commonly consumed with mixers. Premium rums are also available, made to be consumed either straight or iced.\r\n\r\nRum plays a part in the culture of most islands of the West Indies as well as in The Maritimes and Newfoundland. This drink has famous associations with the Royal Navy (where it was mixed with water or beer to make grog) and piracy (where it was consumed as bumbo). Rum has also served as a popular medium of economic exchange, used to help fund enterprises such as slavery (see Triangular trade), organized crime, and military insurgencies (e.g., the American Revolution and Australia's Rum Rebellion).",
-        "strType": "Spirit"
-      },
-      {
-        "idIngredient": "538",
-        "strIngredient": "Rum",
-        "strDescription": "Rum is a distilled alcoholic drink made from sugarcane byproducts, such as molasses, or directly from sugarcane juice, by a process of fermentation and distillation. The distillate, a clear liquid, is then usually aged in oak barrels.\r\n\r\nThe majority of the world's rum production occurs in the Caribbean and Latin America. Rum is also produced in Australia, Portugal, Austria, Canada, Fiji, India, Japan, Mauritius, Nepal, New Zealand, the Philippines, Reunion Island, South Africa, Spain, Sweden, Taiwan, Thailand, the United Kingdom and the United States.\r\n\r\nRums are produced in various grades. Light rums are commonly used in cocktails, whereas \"golden\" and \"dark\" rums were typically consumed straight or neat, on the rocks, or used for cooking, but are now commonly consumed with mixers. Premium rums are also available, made to be consumed either straight or iced.\r\n\r\nRum plays a part in the culture of most islands of the West Indies as well as in The Maritimes and Newfoundland. This drink has famous associations with the Royal Navy (where it was mixed with water or beer to make grog) and piracy (where it was consumed as bumbo). Rum has also served as a popular medium of economic exchange, used to help fund enterprises such as slavery (see Triangular trade), organized crime, and military insurgencies (e.g., the American Revolution and Australia's Rum Rebellion).",
-        "strType": "Spirit"
-      },
-      {
         "idIngredient": "539",
         "strIngredient": "English Muffins",
         "strDescription": "English muffins are a small, round, flat yeast-leavened bread which is commonly sliced horizontally, toasted, and buttered.[2] Toasted English muffins, which are often used in the United States as a breakfast food, may be served with sweet toppings (e.g., fruit jam, or honey) or savoury toppings (e.g., eggs, sausage rounds, bacon, or cheese). English muffins are also used as the bread in a variety of breakfast sandwiches, and are an essential ingredient in Eggs Benedict and most of its variations.\r\n\r\nIn the United States and U.S.-influenced territories, they are called English muffins to distinguish them from U.S. muffins, which are larger and sweeter miniature baked quick breads. They are very similar to bolo do caco in Portuguese cuisine.",
-        "strType": "Bread"
-      },
-      {
-        "idIngredient": "540",
-        "strIngredient": "Muffins",
-        "strDescription": "A muffin is an individual-sized, baked product. It can refer to two distinct items, a part-raised flatbread and a cupcake-like quickbread. The flatbread is of British or European derivation, and dates from at least the early 18th century, while the quickbread originated in North America during the 19th century. Both are common worldwide today.",
         "strType": "Bread"
       },
       {
@@ -3112,12 +2884,6 @@ const ingredients = [
         "strIngredient": "Almond Extract",
         "strDescription": "The almond (Prunus dulcis, syn. Prunus amygdalus) is a species of tree native to Mediterranean climate regions of the Middle East, but widely cultivated elsewhere. The almond is also the name of the edible and widely cultivated seed of this tree. Within the genus Prunus, it is classified with the peach in the subgenus Amygdalus, distinguished from the other subgenera by corrugations on the shell (endocarp) surrounding the seed.\r\n\r\nThe fruit of the almond is a drupe, consisting of an outer hull and a hard shell with the seed, which is not a true nut, inside. Shelling almonds refers to removing the shell to reveal the seed. Almonds are sold shelled or unshelled. Blanched almonds are shelled almonds that have been treated with hot water to soften the seedcoat, which is then removed to reveal the white embryo.",
         "strType": "Fruit"
-      },
-      {
-        "idIngredient": "552",
-        "strIngredient": "Tripe",
-        "strDescription": "Tripe is a type of edible lining from the stomachs of various farm animals. Most tripe is from cattle and sheep.",
-        "strType": "Meat"
       },
       {
         "idIngredient": "553",
@@ -3174,45 +2940,15 @@ const ingredients = [
         "strType": "Wine"
       },
       {
-        "idIngredient": "562",
-        "strIngredient": "Rose water",
-        "strDescription": "Rose water is a flavoured water made by steeping rose petals in water. Additionally, it is the hydrosol portion of the distillate of rose petals, a by-product of the production of rose oil for use in perfume. It is used to flavour food, as a component in some cosmetic and medical preparations, and for religious purposes throughout Europe and Asia.",
-        "strType": "Drink"
-      },
-      {
-        "idIngredient": "563",
-        "strIngredient": "Mixed Spice",
-        "strDescription": "Mixed spice, also called pudding spice, is a British[1] blend of sweet spices, similar to the pumpkin pie spice used in the United States. Cinnamon is the dominant flavour, with nutmeg and allspice. It is often used in baking, or to complement fruits or other sweet foods.",
-        "strType": "Spice"
-      },
-      {
         "idIngredient": "564",
         "strIngredient": "Mincemeat",
         "strDescription": "Mincemeat is a mixture of chopped dried fruit, distilled spirits and spices, and sometimes beef suet, beef, or venison. Originally, mincemeat always contained meat. Many modern recipes contain beef suet, though vegetable shortening is sometimes used in its place.",
         "strType": "Spice"
       },
       {
-        "idIngredient": "565",
-        "strIngredient": "Sweet Potatoes",
-        "strDescription": "The sweet potato or sweetpotato is a dicotyledonous plant that belongs to the bindweed or morning glory family, Convolvulaceae. Its large, starchy, sweet-tasting, tuberous roots are a root vegetable. The young leaves and shoots are sometimes eaten as greens.",
-        "strType": "Root Vegetable"
-      },
-      {
-        "idIngredient": "566",
-        "strIngredient": "Bread Rolls",
-        "strDescription": "A roll is a small, usually round or oblong individual loaf of bread served as a meal accompaniment (eaten plain or with butter) A roll can be served and eaten whole or cut transversely and dressed with filling between the two halves. Rolls are also commonly used to make sandwiches similar to those produced using slices of bread. They are found in most cuisines all over the world. In the Deipnosophistae, the author Athenaeus (c. 170 – c. 230) describes some of the bread, cakes, and pastries available in the Classical world. Among the breads mentioned are griddle cakes, honey-and-oil bread, mushroom-shaped loaves covered in poppy seeds, and the military specialty of rolls baked on a spit.",
-        "strType": "Bread"
-      },
-      {
         "idIngredient": "567",
         "strIngredient": "Bun",
         "strDescription": "A bun is a small, sometimes sweet, bread-based item[1] or roll. Though they come in many shapes and sizes, they are most commonly hand-sized or smaller, with a round top and flat bottom.",
-        "strType": "Bread"
-      },
-      {
-        "idIngredient": "568",
-        "strIngredient": "Potatoe Buns",
-        "strDescription": "Potato bread is a form of bread in which potato flour or potato replaces a portion of the regular wheat flour. It is cooked in a variety of ways, including baking it on a hot griddle or pan, or in an oven. It may be leavened or unleavened, and may have a variety of other ingredients baked into it. The ratio of potato to wheat flour varies significantly from recipe to recipe, with some recipes having a majority of potato, and others having a majority of wheat flour. Some recipes call for mashed potatoes, with others calling for dehydrated potato flakes. It is available as a commercial product in many countries, with similar variations in ingredients, cooking method, and other variables.",
         "strType": "Bread"
       },
       {
@@ -3228,45 +2964,9 @@ const ingredients = [
         "strType": "Meat"
       },
       {
-        "idIngredient": "571",
-        "strIngredient": "Yukon Gold Potatoes",
-        "strDescription": "Yukon Gold is a large cultivar of potato most distinctly characterized by its thin, smooth, eye-free skin and yellow-tinged flesh. This potato was developed in the 1960s by Garnet Johnston in Guelph, Ontario, Canada, with the help of Geoff Rowberry at the University of Guelph. The official cross was made in 1966 and Yukon Gold was finally released into the market in 1980.",
-        "strType": "Root Vegetable"
-      },
-      {
-        "idIngredient": "572",
-        "strIngredient": "Yellow Onion",
-        "strDescription": "The brown onion or yellow onion is a variety of dry onion with a strong flavour. They have a greenish-white, light yellow, or white inside; its layers of papery skin have a yellow-brown or pale golden colour",
-        "strType": "Vegetable"
-      },
-      {
-        "idIngredient": "573",
-        "strIngredient": "Beef Stock Concentrate",
-        "strDescription": "Stock, sometimes called bone broth, is a savory cooking liquid that forms the basis of many dishes, particularly soups, stews and sauces. Making stock involves simmering animal bones or meat, seafood, or vegetables in water or wine, often for an extended period of time. Mirepoix or other aromatics may be added for more flavor.",
-        "strType": "Stock"
-      },
-      {
-        "idIngredient": "574",
-        "strIngredient": "Chicken Stock Concentrate",
-        "strDescription": "Stock, sometimes called bone broth, is a savory cooking liquid that forms the basis of many dishes, particularly soups, stews and sauces. Making stock involves simmering animal bones or meat, seafood, or vegetables in water or wine, often for an extended period of time. Mirepoix or other aromatics may be added for more flavor.",
-        "strType": "Stock"
-      },
-      {
-        "idIngredient": "575",
-        "strIngredient": "Persian Cucumber",
-        "strDescription": "Cucumber (Cucumis sativus) is a widely cultivated plant in the gourd family, Cucurbitaceae. It is a creeping vine that bears cucumiform fruits that are used as vegetables. There are three main varieties of cucumber: slicing, pickling, and seedless. Within these varieties, several cultivars have been created. In North America, the term \"wild cucumber\" refers to plants in the genera Echinocystis and Marah, but these are not closely related. The cucumber is originally from South Asia, but now grows on most continents. Many different types of cucumber are traded on the global market.",
-        "strType": "Vegetable"
-      },
-      {
         "idIngredient": "576",
         "strIngredient": "Mayonnaise",
         "strDescription": "Mayonnaise, informally mayo is a thick cold condiment or dressing commonly used in sandwiches and composed salads or on French fries. It is also a base in sauces such as Tartar sauce.",
-        "strType": "Sauce"
-      },
-      {
-        "idIngredient": "577",
-        "strIngredient": "Sriracha",
-        "strDescription": "Sriracha is a type of hot sauce or chili sauce made from a paste of chili peppers, distilled vinegar, garlic, sugar, and salt.",
         "strType": "Sauce"
       },
       {
@@ -3306,28 +3006,10 @@ const ingredients = [
         "strType": "Bread"
       },
       {
-        "idIngredient": "585",
-        "strIngredient": "Buns",
-        "strDescription": "A bun is a small, sometimes sweet, bread-based item or roll. Though they come in many shapes and sizes, they are most commonly hand-sized or smaller, with a round top and flat bottom. Buns are usually made from flour, sugar, milk, yeast and butter.",
-        "strType": "Bread"
-      },
-      {
         "idIngredient": "586",
         "strIngredient": "Iceberg Lettuce",
         "strDescription": "Iceberg is a variety of lettuce with crisp leaves that grow in a spherical head resembling cabbage. It is considered one of the sweeter lettuce varieties like romaine and butterhead. Mature iceberg lettuce grows to about one foot in diameter.",
         "strType": "Vegetable"
-      },
-      {
-        "idIngredient": "587",
-        "strIngredient": "Gherkin Relish",
-        "strDescription": "A relish is a cooked and pickled product made of chopped vegetables, fruits or herbs and is a food item typically used as a condiment to enhance a staple. Examples are chutneys and the North American relish, a pickled cucumber jam eaten with hot dogs or hamburgers.",
-        "strType": "Sauce"
-      },
-      {
-        "idIngredient": "588",
-        "strIngredient": "Cheese Slices",
-        "strDescription": "Processed cheese is a food product made from cheese and other unfermented dairy ingredients mixed with emulsifiers. Additional ingredients, such as vegetable oils, salt, food coloring, or sugar may be included. As a result, many flavors, colors, and textures of processed cheese exist.",
-        "strType": "Cheese"
       },
       {
         "idIngredient": "589",
@@ -3336,28 +3018,10 @@ const ingredients = [
         "strType": "Fat"
       },
       {
-        "idIngredient": "590",
-        "strIngredient": "Warm Water",
-        "strDescription": "Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of most living organisms. It is vital for all known forms of life, even though it provides no calories or organic nutrients. Its chemical formula is H2O, meaning that each of its molecules contains one oxygen and two hydrogen atoms, connected by covalent bonds. Water is the name of the liquid state of H2O at standard ambient temperature and pressure. It forms precipitation in the form of rain and aerosols in the form of fog. Clouds are formed from suspended droplets of water and ice, its solid state. When finely divided, crystalline ice may precipitate in the form of snow. The gaseous state of water is steam or water vapor. Water moves continually through the water cycle of evaporation, transpiration (evapotranspiration), condensation, precipitation, and runoff, usually reaching the sea.",
-        "strType": "Liquid"
-      },
-      {
-        "idIngredient": "591",
-        "strIngredient": "Boiling Water",
-        "strDescription": "Water is an inorganic, transparent, tasteless, odorless, and nearly colorless chemical substance, which is the main constituent of Earth's hydrosphere and the fluids of most living organisms. It is vital for all known forms of life, even though it provides no calories or organic nutrients. Its chemical formula is H2O, meaning that each of its molecules contains one oxygen and two hydrogen atoms, connected by covalent bonds. Water is the name of the liquid state of H2O at standard ambient temperature and pressure. It forms precipitation in the form of rain and aerosols in the form of fog. Clouds are formed from suspended droplets of water and ice, its solid state. When finely divided, crystalline ice may precipitate in the form of snow. The gaseous state of water is steam or water vapor. Water moves continually through the water cycle of evaporation, transpiration (evapotranspiration), condensation, precipitation, and runoff, usually reaching the sea.",
-        "strType": "Liquid"
-      },
-      {
         "idIngredient": "592",
         "strIngredient": "Pickle Juice",
         "strDescription": "Pickling is the process of preserving or extending the shelf life of food by either anaerobic fermentation in brine or immersion in vinegar. In East Asia, vinaigrette is also used as a pickling medium. The pickling procedure typically affects the food's texture, taste and flavor.",
         "strType": "Juice"
-      },
-      {
-        "idIngredient": "593",
-        "strIngredient": "Powdered Sugar",
-        "strDescription": "Powdered sugar, also called confectioners' sugar or icing sugar, is a finely ground sugar produced by milling granulated sugar into a powdered state. It usually contains a small amount of anti-caking agent to prevent clumping and improve flow",
-        "strType": "Sugar"
       },
       {
         "idIngredient": "594",
@@ -3366,22 +3030,10 @@ const ingredients = [
         "strType": "Meat"
       },
       {
-        "idIngredient": "595",
-        "strIngredient": "Polish Sausage",
-        "strDescription": "Kielbasa is any type of meat sausage from Poland, and a staple of Polish cuisine. In American English the word typically refers to a coarse, U-shaped smoked sausage of any kind of meat, which closely resembles the Wiejska sausage in British English.",
-        "strType": "Meat"
-      },
-      {
         "idIngredient": "596",
         "strIngredient": "Sauerkraut",
         "strDescription": "Sauerkraut is finely cut raw cabbage that has been fermented by various lactic acid bacteria. It has a long shelf life and a distinctive sour flavor, both of which result from the lactic acid formed when the bacteria ferment the sugars in the cabbage leaves.",
         "strType": "Vegetable"
-      },
-      {
-        "idIngredient": "597",
-        "strIngredient": "Caraway Seed",
-        "strDescription": "Caraway, also known as meridian fennel and Persian cumin (Carum carvi), is a biennial plant ... For example, it is used in goulash, sauerkraut, and caraway seed cake. The roots may be cooked as a vegetable like parsnips or carrots",
-        "strType": "Spice"
       },
       {
         "idIngredient": "598",
@@ -3408,22 +3060,10 @@ const ingredients = [
         "strType": "Rice"
       },
       {
-        "idIngredient": "602",
-        "strIngredient": "Figs",
-        "strDescription": "Ficus carica is an Asian species of flowering plant in the mulberry family, known as the common fig. It is the source of the fruit also called the fig and as such is an important crop in those areas where it is grown commercially.",
-        "strType": "Fruit"
-      },
-      {
         "idIngredient": "603",
         "strIngredient": "Cider",
         "strDescription": "Cider (/ˈsaɪdər/ SY-dər) is an alcoholic beverage made from the fermented juice of apples. Cider is widely available in the United Kingdom (particularly in the West Country) and the Republic of Ireland. The UK has the world's highest per capita consumption, as well as its largest cider-producing companies. Ciders from the South West of England are generally stronger. Cider is also popular in many Commonwealth countries, such as India, Canada, Australia, and New Zealand. As well as the UK and its former colonies, cider is popular in Portugal (mainly in Minho and Madeira), France (particularly Normandy and Brittany), northern Italy (Piedmont and Friuli), and northern Spain (especially the Principality of Asturias and the Basque Country). Central Europe also has its own types of cider with Rhineland-Palatinate and Hesse producing a particularly tart version known as Apfelwein. In the U.S., varieties of fermented cider are often called hard cider to distinguish alcoholic cider from non-alcoholic apple cider or \"sweet cider\", also made from apples. In Canada, cider cannot be called cider if there are no apples. Furthermore, according to the Food and Drug Regulations in Canada, cider cannot contain less than 2.5% or over 13% absolute alcohol by volume.",
         "strType": "Drink"
-      },
-      {
-        "idIngredient": "604",
-        "strIngredient": "Beetroot",
-        "strDescription": "The beetroot is the taproot portion of a beet plant, usually known in Canada and the USA as beets while the vegetable is referred to as beetroot in British English, and also known as the table beet, garden beet, red beet, dinner beet or golden beet.",
-        "strType": "Vegetable"
       },
       {
         "idIngredient": "605",

@@ -27,9 +27,12 @@ const CategoryMealPage = (props) => {
 
     const loaded = () => {
         return (
+            <>
+            <h2 id="page-title">{category} Recipes</h2>
             <div id="meal-flex">
                 {meals}
             </div>
+            </>
         )
     }
 
