@@ -10,7 +10,6 @@ import IngredientFilterPage from './pages/IngredientFilterPage';
 function App() {
   return (
     <div className="App">
-      
         <Header />
         <Switch>
         <Route exact path='/'> 
@@ -29,7 +28,6 @@ function App() {
         render={(routerProps)=> <RecipePage {...routerProps}/>} 
         />
         </Switch>
-      
     </div>
   );
 }
