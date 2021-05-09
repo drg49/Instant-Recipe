@@ -12,6 +12,7 @@
 
 h1 {
   font-family: 'Kanit', sans-serif;
+  display: inline-block;
   background-color: brown;
   margin: 0 auto;
   padding: 7px;
@@ -318,12 +319,6 @@ li:last-child {
 
   #page-title:hover {
     cursor: default;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  #icon {
-    display: none;
   }
 }
 
