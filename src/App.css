@@ -277,6 +277,7 @@ li:last-child {
 #home {
   display: block;
   margin-top: 5px;
+  transition: 170ms;
 }
 
 @media screen and (min-width: 769px) {
