@@ -148,6 +148,10 @@ input::placeholder {
 
 /* RECIPES/////////////////////////*/
 h2 {
+  margin-bottom: 0px;
+}
+
+#recipeTitle {
   margin-top: 0px;
 }
 
