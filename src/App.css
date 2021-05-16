@@ -275,6 +275,8 @@ li:last-child {
 
 #home {
   display: block;
+  text-align: left;
+  padding-left: 18px;
   margin-top: 5px;
   transition: 170ms;
 }
