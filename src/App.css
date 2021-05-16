@@ -263,7 +263,7 @@ li:last-child {
 /* //////////////////////////////// */
 
 #page-title {
-  margin-top: 6px;
+  margin-top: 0px;
   margin-bottom: 11px;
   -webkit-touch-callout: none; 
   -webkit-user-select: none; 
