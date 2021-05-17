@@ -23,7 +23,7 @@ const RecipePage = (props) => {
     const loaded = () => {
         return (
             <div>
-                <Link to='/'><span id="home">{backBtn}</span></Link>
+                <Link to='/' id="home"><span>{backBtn}</span></Link>
                 <h2 id="recipeTitle">{recipe.strMeal}</h2>
                 <img id="recipethumb" src={recipe.strMealThumb} alt={recipe.strMeal} />
                 <p id="origin">Cuisine: {recipe.strArea}</p>

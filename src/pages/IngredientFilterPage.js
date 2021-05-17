@@ -33,7 +33,7 @@ const IngredientFilterPage = (props) => {
     const loaded = () => {
         return (
             <>
-            <Link to='/'><span id="home">{backBtn}</span></Link>
+            <Link to='/' id="home"><span>{backBtn}</span></Link>
         
             <h2 id="page-title">Recipes Containing {ingredient}</h2>
             <div id="meal-flex">

@@ -161,7 +161,6 @@ h2 {
   margin: auto;
   margin-top: 24px;
   padding-bottom: 1px;
-  border-bottom: 1px solid;
   font-weight: 600;
 }
 
@@ -178,6 +177,7 @@ ul {
   width: 320px;
   margin: auto;
   text-align: left;
+  border-top: 1px solid;
   border-bottom: 1px solid;
 }
 
@@ -279,10 +279,17 @@ li:last-child {
 
 #home {
   display: block;
+  width: fit-content;
   text-align: left;
-  padding-left: 18px;
+  margin-left: 18px;
   margin-top: 5px;
   transition: 170ms;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
 }
 
 @media screen and (min-width: 769px) {
