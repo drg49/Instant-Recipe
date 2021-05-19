@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import load from '../loading.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import {Link} from 'react-router-dom'
@@ -56,7 +57,7 @@ const RecipePage = (props) => {
     }
 
     const loading = () => {
-        return <h2>Loading...</h2>
+        return <img id="load" src={load} alt="The page is loading"/>
     }
 
     return recipe ? loaded() : loading()

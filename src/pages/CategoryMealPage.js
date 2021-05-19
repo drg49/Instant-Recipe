@@ -1,4 +1,5 @@
 import React,{useState, useEffect} from 'react'
+import load from '../loading.gif'
 import FoodItems from '../components/FoodItems'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft} from '@fortawesome/free-solid-svg-icons'
@@ -43,7 +44,7 @@ const CategoryMealPage = (props) => {
     }
 
     const loading = () => {
-        return <h2>Loading...</h2>
+        return <img id="load" src={load} alt="The page is loading"/>
     }
 
     return meals ? loaded() : loading()
