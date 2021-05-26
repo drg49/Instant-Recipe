@@ -6,6 +6,7 @@ import CategoryCards from '../components/CategoryCards'
 import categories from '../datasets/categoryData'
 import ingredients from '../datasets/ingredientData'
 import IngredientCard from '../components/IngredientCards'
+import InstantCocktailAd from '../components/InstantCocktailAd'
 
 const Main = () => {
 
@@ -131,6 +132,7 @@ const Main = () => {
 
     return ( 
         <>
+        <InstantCocktailAd />
         <Input handleSearchChange={handleSearchChange} handleMealChange={handleMealChange} placeholder={placeholder}/>
         {resultNumber}
         <section id="cuisine-wrapper">
