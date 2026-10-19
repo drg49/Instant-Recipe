@@ -37,15 +37,15 @@ const RecipePage = (props) => {
 
   const [recipe, setRecipe] = useState(null);
 
-  const getRecipe = async () => {
-    const response = await fetch(url);
-    const data = await response.json();
-    setRecipe(data.meals[0]);
-  };
-
   useEffect(() => {
+    const getRecipe = async () => {
+      const response = await fetch(url);
+      const data = await response.json();
+      setRecipe(data.meals[0]);
+    };
+
     getRecipe();
-  }, []);
+  }, [url]);
 
   const loaded = () => {
     const youtubeEmbedUrl = getYoutubeEmbedUrl(recipe.strYoutube);
