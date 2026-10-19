@@ -56,7 +56,6 @@ const RecipePage = (props) => {
           <span>{backBtn}</span>
         </Link>
         <h2 id="recipeTitle">{recipe.strMeal}</h2>
-        <img id="recipethumb" src={recipe.strMealThumb} alt={recipe.strMeal} />
         <p id="origin">Cuisine: {recipe.strArea}</p>
         <h4 id="ingredients">Ingredients</h4>
         <ul>
@@ -80,7 +79,7 @@ const RecipePage = (props) => {
           <li>{recipe.strIngredient19}</li>
           <li>{recipe.strIngredient20}</li>
         </ul>
-        <p id="instructions">{recipe.strInstructions}</p>
+        <br />
         {youtubeEmbedUrl && (
           <div id="video-wrapper">
             <iframe
@@ -93,6 +92,7 @@ const RecipePage = (props) => {
             />
           </div>
         )}
+        <p id="instructions">{recipe.strInstructions}</p>
       </div>
     );
   };
