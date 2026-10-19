@@ -1,3 +1,3 @@
-# Instant Recipe Application created by Daniel Gavin
+# Instant Recipe Application
 
-Contains over 250 recipes!
+Created by Daniel Gavin
